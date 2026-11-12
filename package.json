@@ -1,0 +1,9 @@
+{
+  "name": "reckless-ms-cloudflare",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "uv sync --dev",
+    "deploy": "uv run pywrangler deploy"
+  }
+}
